@@ -1,4 +1,4 @@
-body, html, div, main, header {
+body, html, div, main, header, h1 {
 
     margin:0;
     padding:0;
@@ -29,6 +29,10 @@ body, html, div, main, header {
     padding: 7px; 
     box-shadow: 3px 0px 2px rgba(0,0,0,0.5); 
     text-shadow: 3px 0px 2px rgba(0,0,0,0.5); 
+    background-image: url(duotone1.png);
+    background-size: cover;
+    background-attachment: fixed;
+
     
 
 }
@@ -41,9 +45,10 @@ grid-column-end: -1;
 background-color:lightblue;
 display: flex;
 align-items:flex-end;
-background-image: url(duotone.png);
+background-image: url(duotone1.png);
 background-size: cover;
 margin: none;
+background-attachment: fixed;
 }
 
 .space {
@@ -62,6 +67,7 @@ margin: none;
     font-size: 70px;
 }
 
+.holiday,
 .day-weekend {
     background-color:#005eac;
     margin:7px;
