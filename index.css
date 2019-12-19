@@ -3,6 +3,7 @@ body, html, div, main, header {
     margin:0;
     padding:0;
 
+
 }
 
 .calendar {
@@ -12,13 +13,20 @@ body, html, div, main, header {
     grid-template-rows: 1fr;
     grid-auto-rows: 14vw;
     height: 100vh;
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
 }
 
 .day {
 
-    background-color: pink;
+    background-color: #f6cde1;
     margin:5px;
+    padding: 5px; 
+
 }
+
 
 .calendar-header {
 
@@ -29,6 +37,7 @@ display: flex;
 align-items:flex-end;
 background-image: url(duotone.png);
 background-size: cover;
+margin: 5px;
 }
 
 .space {
@@ -37,5 +46,11 @@ background-size: cover;
     grid-column-start: 1;
     grid-column-end: 3;
 
+}
+
+.calendar-title {
+
+    color: white;
+    margin-left: 10px;
 }
 
